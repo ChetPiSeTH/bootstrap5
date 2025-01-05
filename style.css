@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+.navbar{
+    box-shadow: 0 3px 9px 3px rgba(0,0,0,0.1);
+}
+.navbar-brand img{
+    width: 40px;
+}
+.nav-link:hover{
+    color: rgb(75, 78, 226)!important;
+}
+#header{
+    background: url(../image/banner.jpg) top/cover no-repeat;
+    padding-top: 104px;
+}
+.btn:not(.nav-btns button){
+    background-color: #fff;
+    color: rgb(85, 85, 85);
+    padding: 10px 28px;
+    border-radius: 25px;
+    border: 1px solid rgb(85, 85, 85);
+}
+.btn:not(.nav-btns button):hover{
+    background-color: rgb(75, 78, 226);
+    color: #fff;
+    border-color: rgb(75, 78, 226);
+}
+.carousel-inner h1{
+    font-size: 60px;
+}
+.carousel-item .btn{
+    border-color: #fff!important;
+}
+.carousel-item .btn:hover{
+    border-color: rgb(16, 255, 175)!important;
+}
+.title h2::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 50px;
+    background-color: rgb(75, 78, 226);
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.active-filter-btn{
+    background-color: rgb(75, 78, 226) !important;
+    color: #fff;
+    border-color: rgb(75, 78, 226) !important;
+}
+.collection-img span{
+    top: 20px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+#collection-shop{
+    margin-top: 104px;
+}
+#cart{
+    cursor: pointer;
+}
+#about{
+    margin-top: 104px;
+}
